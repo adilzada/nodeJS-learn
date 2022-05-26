@@ -13,8 +13,8 @@ app.get('/user', function (req, res) {
 app.get('/user/:id', function (req, res) {
   res.send(JSON.stringify(users.find((user) => user.id == req.params.id)));
 });
-app.listen(3003, function () {
-    console.log('Example app listening on port 3003!');
+app.listen(3006, function () {
+    console.log('Example app listening on port 3006!');
   });
 
-  
+
